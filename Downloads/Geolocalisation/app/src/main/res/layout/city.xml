@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/nomVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        tools:text="NomDeVille"/>
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:layout_below="@id/nomVille"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        tools:text="@string/population"/>
+    
+    <TextView
+        android:id="@+id/population_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/population"
+        android:layout_toEndOf="@+id/population"
+        android:layout_alignTop="@+id/population"
+        android:layout_alignBottom="@+id/population"
+        tools:text="xxxxxxxxx"/>
+
+</RelativeLayout>

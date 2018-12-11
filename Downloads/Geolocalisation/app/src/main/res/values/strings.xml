@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Geolocalisation</string>
+    <string name="population">Population : </string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="rationale_gps_permission_dialog_title">GPS</string>
+    <string name="rationale_gps_permission_dialog_message">Voici votre position</string>
+    <string name="ok">OK</string>
+</resources>
