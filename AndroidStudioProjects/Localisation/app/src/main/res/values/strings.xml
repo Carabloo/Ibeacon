@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Localisation</string>
+    <string name="adresse_ip">Adresse IP :</string>
+    <string name="separator"></string>
+    <string name="obtenir_ip">OBTENIR IP</string>
+    <string name="obtenir_position">OBTENIR POSITION</string>
+</resources>
